@@ -3,14 +3,12 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  initTheme();
   renderProfileData();
   renderStats();
   renderPortfolioItems('all');
   renderMemosShowcase();
   renderTimeline();
   setupFilterListeners();
-  setupSearchListener();
   setupContactForm();
 });
 

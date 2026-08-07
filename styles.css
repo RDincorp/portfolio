@@ -7,63 +7,11 @@
 
 /* --- Root Color Themes (Dark Default & Light Mode) --- */
 :root {
-  /* Color Palette - Dark Premium (Academic Ink) */
-  --bg-main: #0d1117;
-  --bg-surface: #161b22;
-  --bg-surface-elevated: #21262d;
-  --bg-glass: rgba(22, 27, 34, 0.75);
-  
-  --border-subtle: #30363d;
-  --border-strong: #484f58;
-  --border-accent: #388bfd;
-  
-  --text-main: #f0f6fc;
-  --text-muted: #8b949e;
-  --text-inverse: #0d1117;
-  
-  /* Brand Accents */
-  --accent-primary: #388bfd;      /* Electric Royal Blue */
-  --accent-primary-hover: #58a6ff;
-  --accent-secondary: #d29922;    /* Academic Gold / Amber */
-  --accent-emerald: #3fb950;      /* Internal memo green accent */
-  --accent-purple: #bc8cff;       /* Research accent */
-  
-  --badge-internal-bg: rgba(63, 185, 80, 0.15);
-  --badge-internal-text: #56d364;
-  --badge-conf-bg: rgba(56, 139, 253, 0.15);
-  --badge-conf-text: #58a6ff;
-  --badge-grant-bg: rgba(188, 140, 255, 0.15);
-  --badge-grant-text: #d2a8ff;
-  --badge-media-bg: rgba(210, 153, 34, 0.15);
-  --badge-media-text: #f2cc60;
-
-  /* Typography */
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
-
-  /* Shadows & Glass Effects */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.6);
-  --glass-blur: blur(12px);
-
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
-  --radius-full: 9999px;
-
-  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  --max-width: 1200px;
-}
-
-/* Light Theme Override */
-[data-theme="light"] {
+  /* Color Palette - Clean Academic Light */
   --bg-main: #f6f8fa;
   --bg-surface: #ffffff;
   --bg-surface-elevated: #f3f4f6;
-  --bg-glass: rgba(255, 255, 255, 0.82);
+  --bg-glass: rgba(255, 255, 255, 0.88);
 
   --border-subtle: #d0d7de;
   --border-strong: #afb8c1;
@@ -76,17 +24,37 @@
   --accent-primary: #0969da;
   --accent-primary-hover: #0550ae;
   --accent-secondary: #9a6700;
-  
+  --accent-emerald: #1a7f37;
+  --accent-purple: #8250df;
+
   --badge-internal-bg: rgba(26, 127, 55, 0.12);
   --badge-internal-text: #1a7f37;
   --badge-conf-bg: rgba(9, 105, 218, 0.12);
   --badge-conf-text: #0969da;
   --badge-grant-bg: rgba(130, 80, 223, 0.12);
   --badge-grant-text: #8250df;
+  --badge-media-bg: rgba(154, 103, 0, 0.12);
+  --badge-media-text: #9a6700;
 
+  /* Typography */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Shadows & Glass Effects */
   --shadow-sm: 0 2px 8px rgba(140, 149, 159, 0.15);
   --shadow-md: 0 8px 24px rgba(140, 149, 159, 0.2);
   --shadow-lg: 0 16px 48px rgba(140, 149, 159, 0.25);
+  --glass-blur: blur(12px);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --max-width: 1200px;
 }
 
 /* --- Base & Reset --- */
