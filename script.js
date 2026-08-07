@@ -372,14 +372,43 @@ function showToast(message) {
   }, 3000);
 }
 
-/* --- Contact Form Simulation --- */
+/* --- Real Contact Form Submission via FormSubmit --- */
 function setupContactForm() {
   const form = document.getElementById('contactForm');
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      showToast('Сообщение отправлено! Вы можете также связаться напрямую по e-mail.');
-      form.reset();
+      
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Отправка...';
+
+      fetch('https://formsubmit.co/ajax/rd.inskiya@gmail.com', {
+        method: 'POST',
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          _subject: "Новое сообщение с сайта-портфолио",
+          Имя_и_организация: document.getElementById('senderName').value,
+          Email_для_ответа: document.getElementById('senderEmail').value,
+          Сообщение: document.getElementById('senderMessage').value
+        })
+      })
+      .then(response => response.json())
+      .then(data => {
+        showToast('Сообщение отправлено! Оно доставлено на вашу почту.');
+        form.reset();
+      })
+      .catch(error => {
+        showToast('Ошибка отправки. Напишите напрямую на rd.inskiya@gmail.com');
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+      });
     });
   }
 }
