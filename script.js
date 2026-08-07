@@ -298,7 +298,7 @@ window.openDetailModal = function(id) {
     
     <div class="modal-section">
       <div class="modal-section-title">Контекст и мероприятие</div>
-      <div class="modal-section-body">${item.details.eventOrContext || 'Научно-исследовательская деятельность отдела'}</div>
+      <div class="modal-section-body">${item.details.eventOrContext || 'Научно-исследовательская деятельность Центра'}</div>
     </div>
 
     ${item.details.roleInProject ? `
