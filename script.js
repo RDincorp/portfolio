@@ -158,7 +158,8 @@ function createCardHTML(item) {
   const badgeClassMap = {
     internal: 'badge-internal',
     conference: 'badge-conference',
-    grant: 'badge-grant'
+    grant: 'badge-grant',
+    media: 'badge-media'
   };
 
   const badgeClass = badgeClassMap[item.badgeType] || 'badge-conference';
@@ -284,7 +285,8 @@ window.openDetailModal = function(id) {
   const badgeClassMap = {
     internal: 'badge-internal',
     conference: 'badge-conference',
-    grant: 'badge-grant'
+    grant: 'badge-grant',
+    media: 'badge-media'
   };
 
   const keyFindingsList = item.details.keyFindings

@@ -34,6 +34,8 @@
   --badge-conf-text: #58a6ff;
   --badge-grant-bg: rgba(188, 140, 255, 0.15);
   --badge-grant-text: #d2a8ff;
+  --badge-media-bg: rgba(210, 153, 34, 0.15);
+  --badge-media-text: #f2cc60;
 
   /* Typography */
   --font-serif: 'Playfair Display', Georgia, serif;
@@ -676,6 +678,11 @@ img {
 .badge-grant {
   background: var(--badge-grant-bg);
   color: var(--badge-grant-text);
+}
+
+.badge-media {
+  background: var(--badge-media-bg);
+  color: var(--badge-media-text);
 }
 
 .card-year {
