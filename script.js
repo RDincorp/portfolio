@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   renderMemosShowcase();
   renderTimeline();
   setupFilterListeners();
-  setupContactForm();
 });
 
 /* --- Theme Manager (Dark / Light) --- */
