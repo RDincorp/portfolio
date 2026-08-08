@@ -37,6 +37,7 @@ const PROFILE_DATA = {
     orcid: "",
     eLibrary: "",
     researchGate: "https://www.researchgate.net/profile/Damir-Radkevich",
+    institute: "https://socio.bas-net.by/damir-borisovich-radkevich/",
     telegram: "https://t.me/radkoyanka",
     email: "mailto:rd.inskiya@gmail.com"
   }
