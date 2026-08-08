@@ -81,9 +81,9 @@ function renderProfileData() {
   if (stackContainer && data.analyticalStack) {
     stackContainer.innerHTML = data.analyticalStack
       .map(s => `
-        <div class="stack-card">
-          <div class="stack-title">${s.name}</div>
-          <div class="stack-tools">${s.tools}</div>
+        <div class="stack-item">
+          <span class="stack-item-title">${s.name}</span>
+          ${s.tools ? `<span class="stack-item-tools">${s.tools}</span>` : ''}
         </div>
       `).join('');
   }
