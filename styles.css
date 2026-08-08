@@ -422,84 +422,94 @@ img {
 
 /* --- Section Title Reusable Component --- */
 .section-padding {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 .section-header {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .section-eyebrow {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--accent-secondary);
-  margin-bottom: 0.5rem;
+  letter-spacing: 0.08em;
+  color: var(--accent-primary);
+  margin-bottom: 0.35rem;
   display: block;
+  font-weight: 600;
 }
 
 .section-title {
   font-family: var(--font-serif);
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--text-main);
   line-height: 1.25;
 }
 
 .section-desc {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--text-muted);
   max-width: 720px;
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
+  line-height: 1.5;
 }
 
 /* --- About & Focus Section --- */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  gap: 2rem;
+  align-items: stretch;
 }
 
 .bio-card {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 2rem;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--shadow-sm);
 }
 
 .bio-text {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--text-main);
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
 }
 
 .focus-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.85rem;
+  gap: 0.75rem;
 }
 
 .focus-item {
   display: flex;
   align-items: flex-start;
-  gap: 0.75rem;
-  font-size: 0.95rem;
+  gap: 0.65rem;
+  font-size: 0.925rem;
   color: var(--text-main);
+  line-height: 1.45;
 }
 
 .focus-icon {
   color: var(--accent-secondary);
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.4;
 }
 
 .stack-container {
   display: flex;
   flex-direction: column;
-  gap: 0.85rem;
+  gap: 0.65rem;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .stack-card,
@@ -507,7 +517,7 @@ img {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  padding: 1rem 1.25rem;
+  padding: 0.8rem 1.15rem;
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-fast);
 }
