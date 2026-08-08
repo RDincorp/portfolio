@@ -311,6 +311,13 @@ window.openDetailModal = function(id) {
     <span class="card-badge ${badgeClassMap[item.badgeType]} modal-badge">${item.badge}</span>
     <h2 class="modal-title">${item.title}</h2>
     
+    ${item.summary ? `
+      <div class="modal-section">
+        <div class="modal-section-title">Описание</div>
+        <div class="modal-section-body">${item.summary}</div>
+      </div>
+    ` : ''}
+
     ${item.details.eventOrContext ? `
       <div class="modal-section">
         <div class="modal-section-title">Мероприятие</div>
