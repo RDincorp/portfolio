@@ -174,8 +174,7 @@ function createCardHTML(item) {
       </div>
 
       <div>
-        <div class="card-bottom">
-          <span class="card-type-label">${item.typeLabel}</span>
+        <div class="card-bottom" style="justify-content: flex-end;">
           <button class="btn-detail" onclick="openDetailModal('${item.id}')">
             Подробнее &rarr;
           </button>
