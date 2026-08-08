@@ -73,9 +73,9 @@ const PORTFOLIO_ITEMS = [
     badge: "Доклады",
     badgeType: "conference",
     tags: [],
-    summary: "Международный молодежный научный форум «Ломоносов-2026» (Москва).",
+    summary: "Международный молодёжный научный форум «Ломоносов-2026» (Москва).",
     details: {
-      eventOrContext: "Международный молодежный научный форум «Ломоносов-2026» · At: Москва",
+      eventOrContext: "Международный молодёжный научный форум «Ломоносов-2026» · At: Москва",
       url: "https://www.researchgate.net/publication/411965639_Transformacia_identicnosti_v_usloviah_socialnoj_atomizacii"
     }
   },
@@ -121,7 +121,7 @@ const PORTFOLIO_ITEMS = [
     badge: "Статьи",
     badgeType: "article",
     tags: [],
-    summary: "Научная статья, посвященная истории установления дипломатических отношений между СССР и Республикой Корея.",
+    summary: "Научная статья, посвящённая истории установления дипломатических отношений между СССР и Республикой Корея.",
     details: {
       eventOrContext: "Научная статья (Article)",
       url: "https://www.researchgate.net/publication/387363675_Perestrojka_na_Ug_iz_istorii_ustanovlenia_diplomaticeskih_otnosenij_SSSR_i_Respubliki_Korea"
@@ -137,7 +137,7 @@ const PORTFOLIO_ITEMS = [
     badge: "ТВ и СМИ",
     badgeType: "media",
     tags: [],
-    summary: "Телевизионное выступление в программе «Мнения», посвященное взаимоотношениям Республики Беларусь и Евразийского экономического союза (ЕАЭС).",
+    summary: "Телевизионное выступление в программе «Мнения», посвящённое взаимоотношениям Республики Беларусь и Евразийского экономического союза (ЕАЭС).",
     details: {
       eventOrContext: "Телевизионная программа «Мнения» · О взаимоотношениях Республики Беларусь и Евразийского экономического союза",
       url: "https://socio.bas-net.by/o-vzaimootnosheniyah-respubliki-belarus-i-evrazijskogo-ekonomicheskogo-soyuza/"
