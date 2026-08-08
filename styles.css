@@ -655,6 +655,11 @@ img {
   color: var(--badge-media-text);
 }
 
+.badge-field {
+  background: rgba(9, 105, 218, 0.12);
+  color: #0969da;
+}
+
 .card-year {
   font-family: var(--font-mono);
   font-size: 0.8rem;

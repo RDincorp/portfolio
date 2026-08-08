@@ -153,7 +153,8 @@ function createCardHTML(item) {
     internal: 'badge-internal',
     conference: 'badge-conference',
     grant: 'badge-grant',
-    media: 'badge-media'
+    media: 'badge-media',
+    field: 'badge-field'
   };
 
   const badgeClass = badgeClassMap[item.badgeType] || 'badge-conference';
@@ -276,7 +277,8 @@ window.openDetailModal = function(id) {
     internal: 'badge-internal',
     conference: 'badge-conference',
     grant: 'badge-grant',
-    media: 'badge-media'
+    media: 'badge-media',
+    field: 'badge-field'
   };
 
   const keyFindingsList = item.details.keyFindings
