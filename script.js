@@ -6,9 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
   renderProfileData();
   renderStats();
   renderPortfolioItems('all');
-  renderMemosShowcase();
-  renderTimeline();
-  setupFilterListeners();
 });
 
 /* --- Theme Manager (Dark / Light) --- */
