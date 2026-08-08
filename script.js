@@ -52,7 +52,7 @@ function renderProfileData() {
   const data = PROFILE_DATA;
   
   // Header logo & title
-  setTextContent('brandName', data.shortName);
+  setTextContent('brandName', 'Портфолио научного сотрудника');
   setTextContent('heroName', data.fullName);
   setTextContent('heroTitle', data.academicTitle);
   setTextContent('heroAffiliation', data.affiliation);
