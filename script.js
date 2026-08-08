@@ -299,7 +299,7 @@ window.openDetailModal = function(id) {
     ${item.details.url ? `
       <div class="modal-section" style="margin-top: 1.5rem;">
         <a href="${item.details.url}" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
-          Читать публикацию на ResearchGate (PDF) &nearr;
+          Открыть материал &nearr;
         </a>
       </div>
     ` : ''}

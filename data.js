@@ -125,5 +125,21 @@ const PORTFOLIO_ITEMS = [
       eventOrContext: "Научная статья (Article)",
       url: "https://www.researchgate.net/publication/387363675_Perestrojka_na_Ug_iz_istorii_ustanovlenia_diplomaticeskih_otnosenij_SSSR_i_Respubliki_Korea"
     }
+  },
+  {
+    id: "work-06",
+    type: "media",
+    typeLabel: "ТВ и СМИ",
+    title: 'БЕЛАРУСЬ И ЕАЭС | "Мнения" | 24.12.2025',
+    year: "2025",
+    date: "24 декабря 2025 г.",
+    badge: "ТВ и СМИ",
+    badgeType: "media",
+    tags: [],
+    summary: "Телевизионное выступление в программе «Мнения», посвященное взаимоотношениям Республики Беларусь и Евразийского экономического союза (ЕАЭС).",
+    details: {
+      eventOrContext: "Телевизионная программа «Мнения» · О взаимоотношениях Республики Беларусь и Евразийского экономического союза",
+      url: "https://socio.bas-net.by/o-vzaimootnosheniyah-respubliki-belarus-i-evrazijskogo-ekonomicheskogo-soyuza/"
+    }
   }
 ];
