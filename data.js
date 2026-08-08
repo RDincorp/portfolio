@@ -43,7 +43,7 @@ const PROFILE_DATA = {
 };
 
 /**
- * Опубликованные работы с ResearchGate
+ * Опубликованные работы со ссылками на ResearchGate
  */
 const PORTFOLIO_ITEMS = [
   {
@@ -59,9 +59,7 @@ const PORTFOLIO_ITEMS = [
     summary: "Цифровые технологии и искусственный интеллект в обеспечении информационно-политической безопасности государств: дискурсы, концепты и практики. Белорусская политология: многообразие в единстве. К 30-летию Всебелорусского народного собрания (Минск, Том 2).",
     details: {
       eventOrContext: "Цифровые технологии и искусственный интеллект в обеспечении информационно-политической безопасности государств: дискурсы, концепты и практики. Белорусская политология: многообразие в единстве. К 30-летию Всебелорусского народного собрания · At: Минск · Volume: 2",
-      problem: "Оценка роли и влияния онлайн-сообществ на формирование неаутентичной идентичности.",
-      methodology: "Политологический анализ цифровых процессов.",
-      impact: "Опубликовано (Full-text available)."
+      url: "https://www.researchgate.net/publication/411958878_ONLAJN-SOOBSESTVA_KAK_FAKTOR_FORMIROVANIA_NEAUTENTICNOJ_IDENTICNOSTI"
     }
   },
   {
@@ -74,13 +72,10 @@ const PORTFOLIO_ITEMS = [
     badge: "Conference Paper",
     badgeType: "conference",
     tags: ["Социальная атомизация", "Идентичность", "Ломоносов-2026"],
-    summary: "Международный молодежный научный форум «Ломоносов-2026» (Москва). Соавторы: Damir Radkevich, Koroteeva Daria.",
+    summary: "Международный молодежный научный форум «Ломоносов-2026» (Москва).",
     details: {
       eventOrContext: "Международный молодежный научный форум «Ломоносов-2026» · At: Москва",
-      roleInProject: "Авторы: Damir Radkevich, Koroteeva Daria",
-      problem: "Исследование трансформации идентичности в условиях процессов социальной атомизации.",
-      methodology: "Политико-социологический подход.",
-      impact: "Опубликовано (Full-text available)."
+      url: "https://www.researchgate.net/publication/411965639_Transformacia_identicnosti_v_usloviah_socialnoj_atomizacii"
     }
   },
   {
@@ -96,9 +91,7 @@ const PORTFOLIO_ITEMS = [
     summary: "Всероссийская научная конференция (с международным участием) (Ростов-на-Дону, 4 июля 2025 г., Том III).",
     details: {
       eventOrContext: "Всероссийская научная конференция (с международным участием) (Ростов-на-Дону, 4 июля 2025 г.) · At: Ростов-на-Дону · Volume: III",
-      problem: "Внешнеполитическая роль научных сотрудников АН СССР в дипломатических процессах периода перестройки.",
-      methodology: "Историко-дипломатический подход.",
-      impact: "Опубликовано (Full-text available)."
+      url: "https://www.researchgate.net/publication/398814486_Vnesnepoliticeskaa_rol_sotrudnikov_Akademii_nauk_SSSR_v_mezdunarodnyh_diplomaticeskih_processah_epohi_perestrojki"
     }
   },
   {
@@ -114,9 +107,7 @@ const PORTFOLIO_ITEMS = [
     summary: "Безопасность Союзного государства: вызовы и угрозы : материалы международной научно-практической конференции (Минск, 22 ноября 2024 г.).",
     details: {
       eventOrContext: "Безопасность Союзного государства: вызовы и угрозы : материалы международной научно-практической конференции (Минск, 22 ноября 2024) · At: Минск",
-      problem: "Исследование вызовов демографического спада для Союзного государства и теорий противодействия.",
-      methodology: "Сравнительный анализ международного опыта и научных теорий.",
-      impact: "Опубликовано (Full-text available)."
+      url: "https://www.researchgate.net/publication/397195334_Demograficeskij_spad_kak_vyzov_Souznomu_gosudarstvu_mezdunarodnyj_opyt_i_naucnye_teorii_protivodejstvia"
     }
   },
   {
@@ -132,9 +123,7 @@ const PORTFOLIO_ITEMS = [
     summary: "Научная статья, посвященная истории установления дипломатических отношений между СССР и Республикой Корея.",
     details: {
       eventOrContext: "Научная статья (Article)",
-      problem: "Анализ исторического процесса нормализации и установления дипломатических отношений СССР и Республики Корея.",
-      methodology: "Историко-политологический метод.",
-      impact: "Опубликовано (Full-text available)."
+      url: "https://www.researchgate.net/publication/387363675_Perestrojka_na_Ug_iz_istorii_ustanovlenia_diplomaticeskih_otnosenij_SSSR_i_Respubliki_Korea"
     }
   }
 ];

@@ -293,37 +293,18 @@ window.openDetailModal = function(id) {
     <span class="card-badge ${badgeClassMap[item.badgeType]} modal-badge">${item.badge}</span>
     <h2 class="modal-title">${item.title}</h2>
     
-    <div class="modal-section">
-      <div class="modal-section-title">Контекст и мероприятие</div>
-      <div class="modal-section-body">${item.details.eventOrContext || 'Научно-исследовательская деятельность Центра'}</div>
-    </div>
-
-    ${item.details.roleInProject ? `
+    ${item.details.eventOrContext ? `
       <div class="modal-section">
-        <div class="modal-section-title">Роль в проекте</div>
-        <div class="modal-section-body">${item.details.roleInProject}</div>
+        <div class="modal-section-title">Мероприятие</div>
+        <div class="modal-section-body">${item.details.eventOrContext}</div>
       </div>
     ` : ''}
 
-    <div class="modal-section">
-      <div class="modal-section-title">Исследовательская проблема</div>
-      <div class="modal-section-body">${item.details.problem}</div>
-    </div>
-
-    <div class="modal-section">
-      <div class="modal-section-title">Методология & Эмпирическая база</div>
-      <div class="modal-section-body">${item.details.methodology}</div>
-    </div>
-
-    <div class="modal-section">
-      <div class="modal-section-title">Ключевые выводы & Результаты</div>
-      <div class="modal-section-body">${keyFindingsList}</div>
-    </div>
-
-    ${item.details.impact ? `
-      <div class="modal-section">
-        <div class="modal-section-title">Использование & Внедрение</div>
-        <div class="modal-section-body">${item.details.impact}</div>
+    ${item.details.url ? `
+      <div class="modal-section" style="margin-top: 1.5rem;">
+        <a href="${item.details.url}" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+          Читать публикацию на ResearchGate (PDF) &nearr;
+        </a>
       </div>
     ` : ''}
   `;
