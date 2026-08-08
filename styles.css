@@ -258,23 +258,23 @@ img {
 
 /* --- Hero Section --- */
 .hero-section {
-  padding-top: 140px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 40px;
   position: relative;
   overflow: hidden;
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 340px;
-  gap: 3.5rem;
+  grid-template-columns: 1fr 320px;
+  gap: 2.5rem;
   align-items: center;
 }
 
 .hero-content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .hero-tag {
@@ -293,7 +293,7 @@ img {
 
 .hero-title {
   font-family: var(--font-serif);
-  font-size: 3.25rem;
+  font-size: 2.85rem;
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.02em;
@@ -301,21 +301,22 @@ img {
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   color: var(--text-muted);
   font-weight: 400;
   max-width: 680px;
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 .hero-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
-  font-size: 0.925rem;
+  gap: 0.6rem 1.25rem;
+  font-size: 0.9rem;
   color: var(--text-muted);
   border-top: 1px solid var(--border-subtle);
-  padding-top: 1.25rem;
+  padding-top: 0.85rem;
+  margin-top: 0.25rem;
 }
 
 .hero-meta-item {
@@ -380,7 +381,7 @@ img {
 
 /* --- Quick Stat Bar --- */
 .stats-section {
-  padding: 2rem 0;
+  padding: 1.25rem 0;
   border-y: 1px solid var(--border-subtle);
   background: var(--bg-surface);
 }
@@ -388,13 +389,13 @@ img {
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 1.15rem;
 }
 
 .stat-card {
   display: flex;
   flex-direction: column;
-  padding: 1.25rem 1.5rem;
+  padding: 0.85rem 1.15rem;
   background: var(--bg-main);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
@@ -407,11 +408,11 @@ img {
 
 .stat-number {
   font-family: var(--font-serif);
-  font-size: 2.25rem;
+  font-size: 1.85rem;
   font-weight: 700;
   color: var(--accent-primary);
   line-height: 1;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
 
 .stat-label {
@@ -422,53 +423,53 @@ img {
 
 /* --- Section Title Reusable Component --- */
 .section-padding {
-  padding: 4rem 0;
+  padding: 2.75rem 0;
 }
 
 .section-header {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .section-eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--accent-primary);
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
   display: block;
   font-weight: 600;
 }
 
 .section-title {
   font-family: var(--font-serif);
-  font-size: 2rem;
+  font-size: 1.85rem;
   font-weight: 700;
   color: var(--text-main);
   line-height: 1.25;
 }
 
 .section-desc {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   max-width: 720px;
-  margin-top: 0.5rem;
-  line-height: 1.5;
+  margin-top: 0.35rem;
+  line-height: 1.45;
 }
 
 /* --- About & Focus Section --- */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: stretch;
+  gap: 1.75rem;
+  align-items: start;
 }
 
 .bio-card {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
-  padding: 1.75rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -476,40 +477,38 @@ img {
 }
 
 .bio-text {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--text-main);
-  line-height: 1.65;
-  margin-bottom: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
 .focus-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .focus-item {
   display: flex;
   align-items: flex-start;
-  gap: 0.65rem;
-  font-size: 0.925rem;
+  gap: 0.55rem;
+  font-size: 0.9rem;
   color: var(--text-main);
-  line-height: 1.45;
+  line-height: 1.4;
 }
 
 .focus-icon {
   color: var(--accent-secondary);
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.4;
 }
 
 .stack-container {
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
-  justify-content: space-between;
-  height: 100%;
+  gap: 0.45rem;
 }
 
 .stack-card,
@@ -517,7 +516,7 @@ img {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  padding: 0.8rem 1.15rem;
+  padding: 0.55rem 0.9rem;
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-fast);
 }
@@ -525,12 +524,11 @@ img {
 .stack-card:hover,
 .stack-item:hover {
   border-color: var(--border-strong);
-  transform: translateY(-1px);
 }
 
 .stack-title,
 .stack-item-title {
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--text-main);
 }
