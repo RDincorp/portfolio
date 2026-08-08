@@ -10,6 +10,7 @@ const PROFILE_DATA = {
   affiliation: "Центр политологии Института социологии НАН Беларуси",
   degree: "Магистр политологии (БГУ)",
   location: "Минск",
+  birthDate: "17.09.2002",
   email: "rd.inskiya@gmail.com",
   phone: "+375257340078",
   
