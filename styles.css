@@ -635,29 +635,39 @@ img {
   border-radius: var(--radius-sm);
 }
 
-.badge-internal {
-  background: var(--badge-internal-bg);
-  color: var(--badge-internal-text);
-}
-
 .badge-conference {
-  background: var(--badge-conf-bg);
-  color: var(--badge-conf-text);
+  background: rgba(9, 105, 218, 0.12);
+  color: #0969da;
 }
 
-.badge-grant {
-  background: var(--badge-grant-bg);
-  color: var(--badge-grant-text);
+.badge-article {
+  background: rgba(26, 127, 55, 0.12);
+  color: #1a7f37;
+}
+
+.badge-achievement {
+  background: rgba(130, 80, 223, 0.12);
+  color: #8250df;
+}
+
+.badge-current-nir {
+  background: rgba(154, 103, 0, 0.12);
+  color: #9a6700;
+}
+
+.badge-completed-nir {
+  background: rgba(0, 121, 107, 0.12);
+  color: #00796b;
 }
 
 .badge-media {
-  background: var(--badge-media-bg);
-  color: var(--badge-media-text);
+  background: rgba(207, 34, 46, 0.12);
+  color: #cf222e;
 }
 
 .badge-field {
-  background: rgba(9, 105, 218, 0.12);
-  color: #0969da;
+  background: rgba(79, 70, 229, 0.12);
+  color: #4f46e5;
 }
 
 .card-year {

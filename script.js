@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderProfileData();
   renderStats();
   renderPortfolioItems('all');
+  setupFilterListeners();
 });
 
 /* --- Theme Manager (Dark / Light) --- */
@@ -150,9 +151,11 @@ function renderPortfolioItems(category = 'all', searchQuery = '') {
 
 function createCardHTML(item) {
   const badgeClassMap = {
-    internal: 'badge-internal',
     conference: 'badge-conference',
-    grant: 'badge-grant',
+    article: 'badge-article',
+    achievement: 'badge-achievement',
+    current_nir: 'badge-current-nir',
+    completed_nir: 'badge-completed-nir',
     media: 'badge-media',
     field: 'badge-field'
   };
@@ -274,9 +277,11 @@ window.openDetailModal = function(id) {
   const modalBody = document.getElementById('modalBody');
 
   const badgeClassMap = {
-    internal: 'badge-internal',
     conference: 'badge-conference',
-    grant: 'badge-grant',
+    article: 'badge-article',
+    achievement: 'badge-achievement',
+    current_nir: 'badge-current-nir',
+    completed_nir: 'badge-completed-nir',
     media: 'badge-media',
     field: 'badge-field'
   };
