@@ -62,7 +62,7 @@ function renderProfileData() {
 
   // Avatar card name/role
   setTextContent('avatarName', data.shortName);
-  setTextContent('avatarRole', data.degree);
+  setTextContent('avatarRole', 'Магистр политологии, м. н. с.');
 
   // Research focus list
   const focusListEl = document.getElementById('researchFocusList');
