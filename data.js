@@ -27,10 +27,10 @@ const PROFILE_DATA = {
   ],
 
   stats: {
-    conferencesCount: "до 10",
-    memosCount: "3",
+    conferencesCount: "10",
+    memosCount: "5",
     researchProjectsCount: "1 и 1 в работе",
-    yearsExperience: "2 года"
+    yearsExperience: "2+ года"
   },
 
   academicLinks: {
