@@ -137,6 +137,21 @@ function renderPortfolioItems(category = 'all', searchQuery = '') {
     });
   }
 
+  // Default sorting: Primary by year (newest first), Secondary alphabetically by title
+  const parseStartYear = (yearStr) => {
+    const match = String(yearStr).match(/\d{4}/);
+    return match ? parseInt(match[0], 10) : 0;
+  };
+
+  items = [...items].sort((a, b) => {
+    const yearA = parseStartYear(a.year);
+    const yearB = parseStartYear(b.year);
+    if (yearB !== yearA) {
+      return yearB - yearA;
+    }
+    return a.title.localeCompare(b.title, 'ru', { sensitivity: 'base' });
+  });
+
   if (items.length === 0) {
     container.innerHTML = `
       <div class="no-results">
