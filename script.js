@@ -172,7 +172,8 @@ function createCardHTML(item) {
     current_nir: 'badge-current-nir',
     completed_nir: 'badge-completed-nir',
     media: 'badge-media',
-    field: 'badge-field'
+    field: 'badge-field',
+    side_project: 'badge-side_project'
   };
 
   const badgeClass = badgeClassMap[item.badgeType] || 'badge-conference';
@@ -298,7 +299,8 @@ window.openDetailModal = function(id) {
     current_nir: 'badge-current-nir',
     completed_nir: 'badge-completed-nir',
     media: 'badge-media',
-    field: 'badge-field'
+    field: 'badge-field',
+    side_project: 'badge-side_project'
   };
 
   const keyFindingsList = item.details.keyFindings

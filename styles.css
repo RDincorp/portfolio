@@ -688,6 +688,11 @@ img {
   color: #4f46e5;
 }
 
+.badge-side_project {
+  background: rgba(192, 38, 211, 0.12);
+  color: #c026d3;
+}
+
 .card-year {
   font-family: var(--font-mono);
   font-size: 0.8rem;
